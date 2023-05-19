@@ -2,7 +2,21 @@
 > Real-time location streaming with React Native, Next.js and Apache Kafka
 <img src="web/public/demo.png" width="800px">
 
-## Develop locally
+## Setup
+
+### Upstash Kafka
+
+- [Sign up for Upstash](https://console.upstash.com/login)
+- Create a new Kafka cluster
+- Copy `KAFKA_URL` and `KAFKA_TOKEN`
+
+### Mapbox
+
+- [Sign up for Mapbox](https://account.mapbox.com/auth/signup/)
+- Create a new Mapbox Token
+- Copy `MAPBOX_TOKEN`
+
+### Develop locally
 
 ```bash
 git clone https://github.com/paulphys/expo-next-kafka.git
