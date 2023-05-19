@@ -24,8 +24,11 @@ cd expo-next-kafka
 pnpm
 pnpm dev
 ```
-
 Fill in the Upstash Kafka credentials in `mobile/.env` and `web/src/components/Map.tsx`
 
 > **Warning**
 > This exposes the credentials to the client, only for demo purposes
+
+Download the [Expo Go app](https://expo.dev/client) to your smartphone
+and scan the QR Code to run the application natively
+
